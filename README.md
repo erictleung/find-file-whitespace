@@ -2,6 +2,22 @@
 
 Raise error for whitespace in files
 
+## Example
+
+```yaml
+name: Example
+
+on: pull_request
+
+jobs:
+  example:
+    name: Find Files with Whitespace
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - uses: erictleung/find-file-whitespace@main
+```
+
 **Motivated by**: https://twitter.com/ASpittel/status/1508939056918396931
 
 **Code inspired by**: https://github.com/harupy/find-trailing-whitespace
