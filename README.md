@@ -20,6 +20,15 @@ jobs:
       - uses: erictleung/find-file-whitespace@main
 ```
 
+## Test Locally
+
+```bash
+docker build -t test .
+docker run -v $(pwd):/find-file-whitespace test
+```
+
+## Credit
+
 **Motivated by**: https://twitter.com/ASpittel/status/1508939056918396931
 
 **Code inspired by**: https://github.com/harupy/find-trailing-whitespace
