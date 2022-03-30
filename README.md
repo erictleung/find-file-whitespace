@@ -5,7 +5,7 @@
 
 Raise error for whitespace in files
 
-## Example
+## Example Workflow
 
 ```yaml
 name: Example
@@ -20,6 +20,12 @@ jobs:
       - uses: actions/checkout@v2
       - uses: erictleung/find-file-whitespace@main
 ```
+
+## Example Pull Requests
+
+Fails: https://github.com/erictleung/find-file-whitespace/pull/1
+
+Passes: https://github.com/erictleung/find-file-whitespace/pull/2
 
 ## Test Locally
 
