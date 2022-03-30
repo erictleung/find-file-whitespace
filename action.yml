@@ -1,0 +1,9 @@
+name: Find Files with Whitespace
+author: erictleung
+branding:
+  icon: 'search'
+  color: 'green'
+description: Find Files with whitespace
+runs:
+  using: 'docker'
+  image: 'Dockerfile'
