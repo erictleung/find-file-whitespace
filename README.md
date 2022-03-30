@@ -1,5 +1,6 @@
 # find-file-whitespace
 
+[![Test](https://github.com/erictleung/find-file-whitespace/actions/workflows/test.yml/badge.svg)](https://github.com/erictleung/find-file-whitespace/actions/workflows/test.yml)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Raise error for whitespace in files
